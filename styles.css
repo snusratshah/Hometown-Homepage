@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    font-style: normal;
+    text-align: center;
+    width: 720px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+
+#hero {
+    background-image: url(images/city.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+#hero:hover {
+    background-image: url(images/hover.jpg);
+}
+.title {
+    font-size: 32px;
+    padding: 5px 12px;
+    color: #ffffff;
+    background-color: #8c1c13;
+    border-radius: 10px;
+}
+
+.description {
+    padding: 5px 28px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #bf4342;
+    border-radius: 10px;
+    margin-top: 11px;
+}
+
+/* Activities Section */
+
+#activities-card {
+    background-color: #e7d7c1;
+    padding: 38px 34px;
+}
+
+#activities-title {
+    color: #8c1c13;
+    margin-bottom: 40px; 
+}
+
+#activities-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 198px;
+    height: 230px;
+}
+
+.activity-img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+
+.activity-img:hover {
+    border: 2px solid #8c1c13;
+}
+
+.activity-h4 {
+    color: #8c1c13;
+    margin-bottom: 16px;
+}
+
+.activity-p {
+    color: #735751;
+}
+
+/* Guide Section */
+#guide-section {
+    background-color: #ffffff;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#guide-card {
+    background-color: #a78a7f;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid #8c1c13;
+    padding: 23px 14px;
+
+}
+
+.avatar-img {
+    width: 180px;
+    height: 249px;
+    border: 2px solid #8c1c13;
+    border-radius: 10px;
+}
+
+.guide-h3 {
+    color: #8c1c13;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.guide-p {
+    color: #735751;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.guide-h4 {
+    color: #8c1c13;
+}
